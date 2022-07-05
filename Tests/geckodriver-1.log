@@ -1,0 +1,31 @@
+1656995083971	geckodriver	INFO	Listening on 127.0.0.1:61639
+1656995090129	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\OPRATE~1\\AppData\\Local\\Temp\\rust_mozprofileJMDuOy"
+1656995099723	Marionette	INFO	Marionette enabled
+1656995099768	Marionette	INFO	Listening on port 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+[GFX1-]: Killing GPU process due to IPC reply timeout
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Failed to create remote compositor
+[Parent 12556, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:405
+Read port: 61656
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_NO_DEVICE
+Read port: 61656
+Read port: 61656
+Read port: 61656
+Read port: 61656
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Read port: 61656
+Read port: 61656
