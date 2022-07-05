@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.10 on win32)" generated="20220705 07:24:28.984" rpa="false" schemaversion="3">
+<suite id="s1" name="Scrapping" source="C:\Users\Opérateurs\Documents\keller\webScrapping\AutomateScrapping\scrapping\scrap\Tests\Scrapping.robot">
+<test id="s1-t1" name="Start Program" line="32">
+<kw name="Open The Browser" library="CommonTask">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Opening The Browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220705 07:24:43.308" endtime="20220705 07:24:43.310"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://regionalip.aripo.org/wopublish-search/public/home</arg>
+<arg>FF</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220705 07:24:43.311" level="INFO">Opening browser 'FF' to base url 'http://regionalip.aripo.org/wopublish-search/public/home'.</msg>
+<msg timestamp="20220705 07:24:43.352" level="INFO">Firefox driver log is always forced to to: C:\Users\Opérateurs\Documents\keller\webScrapping\AutomateScrapping\scrapping\scrap\Tests\geckodriver-1.log</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="FAIL" starttime="20220705 07:25:22.764" endtime="20220705 07:25:22.765"/>
+</kw>
+<msg timestamp="20220705 07:25:22.765" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
+<status status="FAIL" starttime="20220705 07:24:43.310" endtime="20220705 07:25:22.771"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.771" endtime="20220705 07:25:22.771"/>
+</kw>
+<status status="FAIL" starttime="20220705 07:24:43.306" endtime="20220705 07:25:22.772"/>
+</kw>
+<kw name="Open Link">
+<doc>Open the browser link to the target page</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.774" endtime="20220705 07:25:22.774"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>start scrapping ${target_page_name} trademarks</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.775" endtime="20220705 07:25:22.775"/>
+</kw>
+<for flavor="IN RANGE">
+<var>${i}</var>
+<value>50</value>
+<iter>
+<var name="${i}"/>
+<kw name="Log To Console" library="BuiltIn">
+<arg>..scrapping page ${i + 1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.776" endtime="20220705 07:25:22.777"/>
+</kw>
+<kw name="Check Table">
+<doc>Check if The table is now visible</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.777" endtime="20220705 07:25:22.777"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>...Reading table data</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.777" endtime="20220705 07:25:22.778"/>
+</kw>
+<kw name="Read Table Content">
+<doc>Read the content of the table and print it</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.778" endtime="20220705 07:25:22.778"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>...Reading table data done ('_')</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.778" endtime="20220705 07:25:22.779"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.779" endtime="20220705 07:25:22.779"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>...saving page ${i + 1} data to excel file</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.780" endtime="20220705 07:25:22.780"/>
+</kw>
+<kw name="Save To Excel" library="Outputexcel">
+<arg>${i + 1}</arg>
+<arg>${DATAS}</arg>
+<arg>${target_page_name}</arg>
+<status status="NOT RUN" starttime="20220705 07:25:22.780" endtime="20220705 07:25:22.780"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.781" endtime="20220705 07:25:22.781"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>...saving page data to excel file done ('_')</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.781" endtime="20220705 07:25:22.781"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.782" endtime="20220705 07:25:22.782"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>...scrapping page ${i + 1} done ('_')</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.782" endtime="20220705 07:25:22.782"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.782" endtime="20220705 07:25:22.783"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>...going to next page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.783" endtime="20220705 07:25:22.783"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>xpath:${next_link}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.783" endtime="20220705 07:25:22.784"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>35</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.784" endtime="20220705 07:25:22.784"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath://*[@id="dataTable"]/tbody</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220705 07:25:22.784" endtime="20220705 07:25:22.784"/>
+</kw>
+<status status="NOT RUN" starttime="20220705 07:25:22.776" endtime="20220705 07:25:22.785"/>
+</iter>
+<status status="NOT RUN" starttime="20220705 07:25:22.776" endtime="20220705 07:25:22.785"/>
+</for>
+<status status="FAIL" starttime="20220705 07:24:43.303" endtime="20220705 07:25:22.788">Execution terminated by signal</status>
+</test>
+<status status="FAIL" starttime="20220705 07:24:28.995" endtime="20220705 07:25:22.791"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Scrapping">Scrapping</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220705 07:25:22.765" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
+</errors>
+</robot>

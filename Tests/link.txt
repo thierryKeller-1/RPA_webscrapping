@@ -1,0 +1,22 @@
+
+page2       = http://regionalip.aripo.org/wopublish-search/public/trademarks?2-1.ILinkListener-body-searchResultPanel
+            -resultWrapper-dataTable-bottomToolbars-toolbars-2-span-navigator-navigation-1-pageLink&query=OFCO:GM
+page3       = http://regionalip.aripo.org/wopublish-search/public/trademarks?2-1.ILinkListener-body-searchResultPanel
+            -resultWrapper-dataTable-bottomToolbars-toolbars-2-span-navigator-navigation-2-pageLink&query=OFCO:GM
+page4       = http://regionalip.aripo.org/wopublish-search/public/trademarks?7-1.ILinkListener-body-searchResultPanel
+            -resultWrapper-dataTable-bottomToolbars-toolbars-2-span-navigator-navigation-3-pageLink&query=OFCO:GM
+page5       = http://regionalip.aripo.org/wopublish-search/public/trademarks?7-1.ILinkListener-body-searchResultPanel
+            -resultWrapper-dataTable-bottomToolbars-toolbars-2-span-navigator-navigation-3-pageLink&query=OFCO:GM
+page6       = http://regionalip.aripo.org/wopublish-search/public/trademarks?7-1.ILinkListener-body-searchResultPanel
+            -resultWrapper-dataTable-bottomToolbars-toolbars-2-span-navigator-navigation-3-pageLink&query=OFCO:GM
+page7       = http://regionalip.aripo.org/wopublish-search/public/trademarks?2-1.ILinkListener-body-searchResultPanel
+            -resultWrapper-dataTable-bottomToolbars-toolbars-2-span-navigator-navigation-6-pageLink&query=OFCO:GM
+page8       = http://regionalip.aripo.org/wopublish-search/public/trademarks?2-1.ILinkListener-body-searchResultPanel
+            -resultWrapper-dataTable-bottomToolbars-toolbars-2-span-navigator-navigation-7-pageLink&query=OFCO:GM
+page9       = http://regionalip.aripo.org/wopublish-search/public/trademarks?2-1.ILinkListener-body-searchResultPanel
+            -resultWrapper-dataTable-bottomToolbars-toolbars-2-span-navigator-navigation-8-pageLink&query=OFCO:GM
+page10      = http://regionalip.aripo.org/wopublish-search/public/trademarks?2-1.ILinkListener-body-searchResultPanel
+            -resultWrapper-dataTable-bottomToolbars-toolbars-2-span-navigator-navigation-9-pageLink&query=OFCO:GM
+pageLast    = http://regionalip.aripo.org/wopublish-search/public/trademarks?7-1.ILinkListener-body-searchResultPanel
+            -resultWrapper-dataTable-bottomToolbars-toolbars-2-span-navigator-navigation-9-pageLink&query=OFCO:GM
+

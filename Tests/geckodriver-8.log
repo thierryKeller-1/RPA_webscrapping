@@ -1,0 +1,10 @@
+1656933532150	geckodriver	INFO	Listening on 127.0.0.1:58808
+1656933535162	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\OPRATE~1\\AppData\\Local\\Temp\\rust_mozprofile105sDO"
+1656933536747	Marionette	INFO	Marionette enabled
+1656933536754	Marionette	INFO	Listening on port 58822
+Read port: 58822
+1656933537814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\OPRATE~1\\AppData\\Local\\Temp\\rust_mozprofile105sDO\\search.json.mozlz4", (void 0)))
+JavaScript error: http://regionalip.aripo.org/wopublish-search/public/home;jsessionid=CDCB08F3ED87C3A507F515140DB99826?0, line 292: TypeError: google.visualization.GeoChart is not a constructor
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://regionalip.aripo.org"
+1656933614126	Marionette	INFO	Stopped listening on port 58822
