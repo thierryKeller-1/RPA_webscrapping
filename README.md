@@ -15,7 +15,10 @@ source venv/bin/activate
 # install requirements
 pip install -r requirements.txt
 
-# chrome driver and fireforx drive
+# install chrome driver and fireforx drive
 
-run program
-robot 
+# change directory to project/test
+
+# run program with this command
+robot Scrapping.robot
+
